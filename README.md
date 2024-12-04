@@ -54,20 +54,20 @@ This is a Laravel-based Command-Line Interface (CLI) application designed to man
 
 ## Import Staff from a CSV File
 
-### Ensure the CSV file has a valid structure:
+ Ensure the CSV file has a valid structure:
 
 ```csv 
 firstname,lastname,email,phonenumber1,phonenumber2,comment
 Jonas,Jonaitis,jonas@example.com,+37061234567,+37061234568,Vadybininkas
 Petras,Petraitis,petras@example.com,+37061234569,+37061234570,Programuotojas
 
-### Run the command:
+ Run the command:
    ```bash
    php artisan staff:import {file}
 
  Replace {file} with the path to your CSV file.
 
-## Find Staff
+ Find Staff
 Search for a staff member by name or email:
 
    ```bash
@@ -75,16 +75,16 @@ Search for a staff member by name or email:
 
 Replace {query} with the search term. Use % to display all staff records.
 
-## Delete Staff
+ Delete Staff
 
-### Delete a staff member by email:
+ Delete a staff member by email:
 
    ```bash
   php artisan staff:delete {email}
 
-### Replace {email} with the staff member’s email.
+ Replace {email} with the staff member’s email.
 
-## Testing
+ Testing
 
    ```bash
    php artisan test
