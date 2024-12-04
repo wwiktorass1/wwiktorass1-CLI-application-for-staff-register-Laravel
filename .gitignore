@@ -1,0 +1,19 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+
+# Debug ir log failai
+*.log
+*.cache
+
+# Sistemos failai
+.DS_Store
+Thumbs.db
+
+# IDE failai
+.idea
+.vscode
