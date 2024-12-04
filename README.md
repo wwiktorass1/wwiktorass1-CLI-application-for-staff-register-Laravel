@@ -37,11 +37,11 @@ This is a Laravel-based Command-Line Interface (CLI) application designed to man
 
 * Update the .env file with your database credentials.
 
-* 4. **Generate the application key:**
+4. **Generate the application key:**
    ```bash
    php artisan key:generate
 
-* 5. **Run migrations to set up the database:**
+5. **Run migrations to set up the database:**
    ```bash
    php artisan migrate
 
