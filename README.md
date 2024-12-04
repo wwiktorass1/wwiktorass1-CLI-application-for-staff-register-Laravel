@@ -48,14 +48,12 @@ This is a Laravel-based Command-Line Interface (CLI) application designed to man
 # Usage
 ## Register a New Staff Member
 ### To register a new staff member interactively:
-
    ```bash
    php artisan staff:register
 
 ## Import Staff from a CSV File
 
  Ensure the CSV file has a valid structure:
-
 ```csv 
 firstname,lastname,email,phonenumber1,phonenumber2,comment
 Jonas,Jonaitis,jonas@example.com,+37061234567,+37061234568,Vadybininkas
